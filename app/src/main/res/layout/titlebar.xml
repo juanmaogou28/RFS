@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:background="@android:color/holo_blue_light"
+              android:layout_height="55dp"
+              android:gravity="center">
+
+    <!--顶部左面 使用权重-->
+    <TextView
+        android:layout_margin="15dp"
+        android:text="RFS系统"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:layout_height="wrap_content"/>
+    <!--顶部右面-->
+    <TextView
+        android:layout_marginRight="15dp"
+        android:text="Ver:1.0"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
